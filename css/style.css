@@ -188,6 +188,8 @@ ul.companies__item {
 }
 
 .process__title {
+  margin: 0;
+  margin-bottom: 30px;
   width: 493px;
   font-weight: 600;
   font-size: 50px;
@@ -195,6 +197,8 @@ ul.companies__item {
 }
 
 .process__description {
+  margin: 0;
+  margin-bottom: 30px;
   width: 491px;
   font-weight: 400;
   font-size: 20px;
@@ -474,6 +478,7 @@ ul.companies__item {
 }
 
 .loc__btn {
+  margin-right: 0;
   text-align: center;
   padding: 20px 40px;
   border: none;
