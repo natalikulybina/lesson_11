@@ -2,27 +2,29 @@
   box-sizing: border-box;
 }
 
-.wrapp_nav {
+.header {
   border-bottom: 1px solid #CCCCCC;
 }
 
-.logo__cont {
+.header__container {
   display: flex;
+  justify-content:space-between;
+  align-items: center;  
   width: 1290px;  
-  margin: 0 auto;
-  gap: 51px;
+  margin: 0 auto;  
+  padding: 28px 0;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  width: 1157px;
+  width: 775px;
+  gap: 51px;
 }
 
 .menu {
   width: 592px;
-  padding: 28px 0;
 }
 
 ul {
@@ -50,6 +52,10 @@ ul.menu__item li a {
   line-height: 20px;
 
   color: #000000;
+}
+
+.authorization {
+  width: 265px;
 }
 
 .btn {
