@@ -1,3 +1,7 @@
+html {
+  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -42,7 +46,6 @@ ul {
 }
 
 .menu__link {
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-decoration: none;
   font-size: 15px;
@@ -59,7 +62,6 @@ ul {
   width: 120px;
   padding: 15px 36px;
   margin-right: 10px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 45px;
@@ -98,7 +100,6 @@ ul {
   width: 552px;
   margin: 0;
   margin-bottom: 51px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 65px;
   line-height: 70px;
@@ -108,7 +109,6 @@ ul {
   width: 471px;
   margin: 0;
   margin-bottom: 30px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 35px;
@@ -133,7 +133,6 @@ ul {
 }
 
 .notes {
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -155,7 +154,6 @@ ul {
 .companies__title {
   width: 720px;
   margin: 0 285px 70px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
@@ -163,16 +161,12 @@ ul {
   color: #000000;
 }
 
-.companies__wrap {
+.companies__item {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 0;
-}
-
-.companies__item {
-  display: inline-block;
 }
 
 .process {
@@ -184,9 +178,12 @@ ul {
   padding: 100px 0 150px;
 }
 
+.process__reverse {
+  flex-direction: row-reverse;
+}
+
 .control__process {
   width: 493px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
 
   color: #000000;
 }
@@ -219,7 +216,6 @@ ul {
 
 .project {
   width: 632px;
-  height: 632px;
   padding: 200px 100px;
 
   background-color: #FCF6DF;
@@ -245,7 +241,6 @@ ul {
 .text__description {
   margin: 0;
   margin-bottom: 23px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
@@ -273,7 +268,6 @@ ul {
 .list__title {
   margin: 0;
   margin-bottom: 58px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -292,7 +286,6 @@ ul {
 
 .card {
   width: 344px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   text-align: center;
 
   color: #000000;
@@ -366,7 +359,6 @@ ul {
 }
 
 .productivity__notes {
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -398,7 +390,6 @@ ul {
   width: 461px;
   padding-top: 27px;
   margin: 0;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 35px;
   line-height: 50px;
@@ -416,7 +407,6 @@ ul {
   margin: 0 auto;
   padding: 169px 133px 140px;
   text-align: center;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
 
   color: #000000;
 }
@@ -458,7 +448,6 @@ ul {
 }
 
 .localization {
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   text-align: center;
 
   color: #000000;
@@ -492,10 +481,13 @@ ul {
 
 .wrapp_grey {
   background: #EEEEEE;
+}
+
+.footer__container__top {
   border-bottom: 1px solid #7F7F7F;
 }
 
-.wrapper_studies {
+.footer__wrapper_studies {
   display: flex;
   justify-content: space-between;
   width: 1290px;
@@ -505,7 +497,6 @@ ul {
 
 .studies {
   width: 370px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
 }
 
 .studies__title {
@@ -552,7 +543,6 @@ ul {
 .menu__studies {
   display: flex;
   gap: 34px;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
 }
 
 .menu__studies > li {
@@ -584,14 +574,13 @@ ul {
   color: #000000;
 }
 
-.footer {
+.footer__container__bottom {
   display: flex;
   justify-content: flex-start;
   gap: 14px;
   width: 1290px;
   margin: 0 auto;
   padding: 48px 0;
-  font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
