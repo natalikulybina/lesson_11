@@ -86,6 +86,7 @@ ul {
 
 .promo {
   display: flex;
+  align-items: flex-start;
   flex-direction: row;
   width: 1290px;
     margin: 0 auto;
@@ -95,6 +96,7 @@ ul {
 
 .promo__title {
   width: 552px;
+  margin: 0;
   margin-bottom: 51px;
   font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -159,10 +161,9 @@ ul {
   line-height: 60px;
 
   color: #000000;
-
 }
 
-ul.companies__item {
+.companies__wrap {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -170,7 +171,7 @@ ul.companies__item {
   padding: 0;
 }
 
-.companies__item li {
+.companies__item {
   display: inline-block;
 }
 
