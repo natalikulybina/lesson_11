@@ -23,28 +23,25 @@
   gap: 51px;
 }
 
-.menu {
-  width: 592px;
-}
-
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-ul.menu__item {
+.menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between;  
+  width: 592px;
   padding: 10px 0;
 }
 
-ul.menu__item li {
+.menu__item {
   display: inline-block;
 }
 
-ul.menu__item li a {
+.menu__link {
   font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-decoration: none;
