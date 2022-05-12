@@ -532,9 +532,12 @@ ul.companies__item {
 
 .studies__notes {
   margin: 0;
+  text-decoration: none;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
+
+  color: #000000;
 }
 
 .conteiner {
