@@ -597,3 +597,246 @@ ul {
 .footer__text p {
   margin: 0;
 }
+
+.mr_0 {
+  margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .header__container {
+    padding: 0px;
+  }
+
+  .menu,
+  .header__container,
+  .navigation {
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .menu {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .authorization,
+  .btn_position {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .btn {
+    width: auto;
+    padding: 0;
+  }
+
+  .promo {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 45px 10px 10px 10px;
+    padding-bottom: 20px;
+  }
+
+  .promo__item {
+    text-align: center;
+  }
+
+  .promo_description,
+  .promo__title {
+    width: auto;
+  }
+
+  .promo__title,
+  .integrate__title,
+  .loc__title {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .promo_description {
+    font-size: 20px;
+  }
+
+  .companies {
+    padding: 40px 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .companies__title {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .companies__item {
+    gap: 70px;
+  }
+
+  .process {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    gap: 40px;
+    padding: 40px 10px;
+  }
+
+  .control__process,
+  .process__title,
+  .process__description,
+  .project,
+  .list,
+  .productivity,
+  .list__title,
+  .card__description,
+  .review,
+  .text,
+  .wrapper__software,
+  .software,
+  .software__item,
+  .software__title,
+  .integrate,
+  .integrate_decsription,
+  .wrapper,
+  .loc__title,
+  .footer__wrapper_studies,
+  .conteiner,
+  .menu__studies,
+  .studies__description,
+  .footer__container__bottom {
+    width: auto;
+  }
+
+  .process__title,
+  .list__title,
+  .software__title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .process__description {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .process__start {
+    font-size: 15px;
+  }
+
+  .project {
+    padding: 100px 50px;
+  }
+
+  .list,
+  .productivity,
+  .integrate,
+  .wrapper,
+  .footer__wrapper_studies,
+  .footer__container__bottom {
+    padding: 60px 10px;
+  }
+
+  .card__conteiner {
+    flex-wrap: wrap;
+  }
+
+  .card,
+  .review,
+  .wrapper__software {
+    max-width: 100%;
+    padding: 30px 10px;
+  }
+
+  .card__conteiner {
+    gap: 0;
+  }
+
+  .card__img,
+  .list__title,
+  .loc__description {
+    margin-bottom: 30px;
+  }
+
+  .card__left,
+  .software__title {
+    text-align: center;
+  }
+
+  .review {
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .text__description {
+    font-size: 20px;
+  }
+
+  .wrapper__software,
+  .software,
+  .footer__wrapper_studies {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .software {
+    padding: 0;
+    border: 0;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .software__title {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .software__item {
+    gap: 20px;
+  }
+
+  .btn__integrate,
+  .loc__btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__wrapper_studies {
+    align-items: center;
+  }
+
+  .studies {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+
+  .menu__studies {
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: space-around;
+  }
+
+  .menu__studies>li {
+    flex-basis: 70px;
+  }
+
+  .footer__container__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
