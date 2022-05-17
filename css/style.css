@@ -82,7 +82,6 @@ ul {
 
 .img {
   max-width: 100%;
-  display: block;
   height: auto;
 }
 
@@ -601,13 +600,15 @@ ul {
 .mr_0 {
   margin-right: 0;
 }
+
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
     padding: 20px 10px;
   }
 
-  .header__container {
+  .header__container,
+  .menu {
     padding: 0px;
   }
 
@@ -620,7 +621,6 @@ ul {
   }
 
   .menu {
-    padding: 0;
     margin-bottom: 20px;
   }
 
@@ -663,7 +663,8 @@ ul {
     margin-bottom: 20px;
   }
 
-  .promo_description {
+  .promo_description,
+  .text__description {
     font-size: 20px;
   }
 
@@ -781,10 +782,6 @@ ul {
     gap: 40px;
   }
 
-  .text__description {
-    font-size: 20px;
-  }
-
   .wrapper__software,
   .software,
   .footer__wrapper_studies {
@@ -830,7 +827,7 @@ ul {
     justify-content: space-around;
   }
 
-  .menu__studies>li {
+  .menu__studies > li {
     flex-basis: 70px;
   }
 
@@ -838,5 +835,4 @@ ul {
     flex-direction: column;
     align-items: flex-start;
   }
-
 }
