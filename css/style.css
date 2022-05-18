@@ -14,7 +14,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 28px 0;
 }
@@ -89,7 +89,7 @@ ul {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   /*flex-basis: 100%;*/
   padding: 115px 0px 147px 0;
@@ -145,7 +145,7 @@ ul {
 }
 
 .companies {
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 96px 0;
 }
@@ -227,7 +227,7 @@ ul {
 .review {
   display: flex;
   gap: 85px;
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 40px 0 105px;
 }
@@ -259,7 +259,7 @@ ul {
 }
 
 .list {
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 120px 0 150px;
 }
@@ -371,7 +371,7 @@ ul {
 
 .wrapper__software {
   display: flex;
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 69px 0 80px;
   align-items: center;
@@ -440,7 +440,7 @@ ul {
 }
 
 .wrapper {
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 121px 253px 161px;
   background: #FF9C7D;
@@ -577,7 +577,7 @@ ul {
   display: flex;
   justify-content: flex-start;
   gap: 14px;
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 48px 0;
   font-weight: 400;
@@ -600,7 +600,6 @@ ul {
 .mr_0 {
   margin-right: 0;
 }
-
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
@@ -657,9 +656,10 @@ ul {
 
   .promo__title,
   .integrate__title,
-  .loc__title {
-    font-size: 45px;
-    line-height: 45px;
+  .studies__title,
+  .companies__title {
+    font-size: 35px;
+    line-height: 35px;
     margin-bottom: 20px;
   }
 
@@ -678,8 +678,6 @@ ul {
     width: 100%;
     margin: 0;
     margin-bottom: 40px;
-    font-size: 40px;
-    line-height: 40px;
   }
 
   .companies__item {
@@ -717,13 +715,16 @@ ul {
   .conteiner,
   .menu__studies,
   .studies__description,
-  .footer__container__bottom {
+  .footer__container__bottom,
+  .studies,
+  .footer_description {
     width: auto;
   }
 
   .process__title,
   .list__title,
-  .software__title {
+  .software__title,
+  .loc__title {
     font-size: 35px;
     line-height: 35px;
   }
@@ -802,6 +803,8 @@ ul {
   }
 
   .software__item {
+    align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
   }
 
@@ -834,5 +837,9 @@ ul {
   .footer__container__bottom {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .footer_description {
+    margin: 0;
   }
 }
