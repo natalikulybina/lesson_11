@@ -951,6 +951,7 @@ ul {
   }
 
   .footer__container__bottom {
+    padding: 40px 10px;
     flex-direction: row;
     justify-content: space-between;
   }
