@@ -411,7 +411,7 @@ ul {
 }
 
 .integrate__title {
-  margin: 0;
+  margin: 0 auto;
   font-weight: 600;
   font-size: 65px;
   line-height: 75px;
@@ -431,7 +431,7 @@ ul {
 }
 
 .btn__integrate {
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 20px;
   line-height: 60px;
   border: none;
@@ -454,7 +454,7 @@ ul {
 
 .loc__title {
   width: 784px;
-  margin: 0;
+  margin: 0 auto;
   font-weight: 600;
   font-size: 65px;
   line-height: 75px;
@@ -462,7 +462,7 @@ ul {
 }
 
 .loc__description {
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 54px;
   font-weight: 400;
   font-size: 20px;
@@ -470,7 +470,7 @@ ul {
 }
 
 .loc__btn {
-  margin-right: 0;
+  margin: 0 auto;
   text-align: center;
   padding: 20px 40px;
   border: none;
@@ -601,7 +601,7 @@ ul {
   margin-right: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .header {
     width: 100%;
     padding: 20px 10px;
@@ -845,7 +845,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 454px) {
+@media screen and (min-width: 454px) and (max-width: 991px) {
   .studies {
     width: 370px;
   }
@@ -855,6 +855,108 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header {
+    padding: 10px 10px;
+  }
 
+  .header__container,
+  .navigation,
+  .menu {
+    flex-direction: row;
+  }
+
+  .menu,
+  .navigation {
+    margin: 0;
+    gap: 20px;
+  }
+
+  .navigation {
+    margin-right: 20px;
+  }
+
+  .authorization {
+    width: 150px;
+    gap: 5px;
+  }
+
+  .promo__text,
+  .control__process,
+  .integrate__title,
+  .integrate_decsription,
+  .loc__title,
+  .loc__description {
+    width: 450px;
+  }
+
+  .btn {
+    width: 150px;
+    line-height: 35px;
+  }
+
+  .btn_position {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .process {
+    align-items: center;
+    text-align: left;
+  }
+
+  .card__center {
+    align-items: baseline;
+    flex-wrap: nowrap;
+  }
+
+  .card__left {
+    text-align: left;
+  }
+
+  .software {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .software__title {
+    margin: 0;
+  }
+
+  .software__item {
+    width: 481px;
+  }
+
+  .btn__integrate {
+    width: 180px;
+  }
+
+  .footer__wrapper_studies {
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .studies {
+    text-align: left;
+    border: none;
+  }
+
+  .menu__studies {    
+    gap: 70px;
+  }
+
+  .conteiner {
+    padding-top: 20px;
+    border-top: 1px solid black;
+  }
+
+  .footer__container__bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer_description {
+    width: 301px;
+    margin-right: 300px;
+  }
 }
